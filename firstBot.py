@@ -52,34 +52,8 @@ async def hello(ctx):
 
 
 
-#Josue command
-
-@client.command()
-
-async def josue(ctx):
-
-    await ctx.send("Josue is a gay faggot")
-
-    await ctx.send(f"Don't you agree? {ctx.author.mention}")
 
 
-
-#Dylan command
-
-@client.command()
-
-async def dylan(ctx):
-
-    await ctx.send("The man with tits!")
-
-    await ctx.send(f"He's our favorite! {ctx.author.mention}")
-
-@client.command()
-async def brandon(ctx):
-
-    await ctx.send("Brandon is a gay faggot who hates niggers")
-
-    await ctx.send(f"Don't you agree? {ctx.author.mention}")
 
 
 
@@ -89,7 +63,7 @@ async def brandon(ctx):
 
 async def on_member_join(member):
 
-    channel = client.get_channel(785045172740030517)
+    channel = client.get_channel(-------)
 
     await channel.send(f"Welcome to the server {member.mention}!")
 
@@ -103,7 +77,7 @@ async def on_member_join(member):
 
 async def on_member_remove(member):
 
-    channel = client.get_channel(785045172740030517)
+    channel = client.get_channel(---------)
 
     await channel.send(f"{member.mention} has left the server!")
 
@@ -219,7 +193,7 @@ async def weather(ctx):
 
 async def weekly_weather(ctx):
 
-    LOCATION = 'Belleville Michigan'
+    LOCATION = 'Location goes here'
 
 
 
